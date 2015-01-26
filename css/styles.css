@@ -1,0 +1,25 @@
+.ooo-form-table > tr:odd
+{
+	background-color:white;
+}
+
+.ooo_offline_class, .ooo_online_class
+{
+font-size:14px;
+font-weight:bold;
+max-width:200px;
+margin:auto;
+}
+
+
+.ooo_offline_class
+{
+background-color: #cc0000;
+color:white;
+}
+
+.ooo_online_class
+{
+background-color: #00FF00;
+color:white;
+}

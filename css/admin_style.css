@@ -1,0 +1,25 @@
+
+.of-caption
+{
+background-color:white;
+padding:15px;
+margin-bottom:30px;
+}
+
+.ooo-form-table tr:nth-child(even)
+{
+	background-color:#FAFCFC;
+
+}
+
+.of-caption li
+{
+list-style-type: circle;
+}
+
+.of-caption ul
+{
+	margin-left:20px;
+{
+
+
