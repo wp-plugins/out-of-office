@@ -1,6 +1,15 @@
-Out-of-Office
+Contributors: La_ruso
+Donate link: http://codemarker.co.uk/codemarker/out-of-office/
+Tags: online, status, business, reachable, basic
+Requires at least: 2.7.1
+Tested up to: 4.1
+Stable tag: 4.1
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-For full details visit us at http://codemarker.co.uk/codemarker/out-of-office/
+Out-of-Office is our rudimentary online/offline indicator with bells and whistles. 
+
+== Description ==
 
 Out-of-Office is our rudimentary online/offline indicator with bells and whistles.
 
@@ -12,34 +21,54 @@ With this plugin/widget you can:
     show the indicator
     and show a post message.
 
+Out-of-Office is a plugin/widget that can be displayed in the WIDGET section.
+Bloggers and content-makers can insert it in posts and pages using shortcode.
+Programmers can use our hook to insert it into pages and themes.
+
+
+== Installation ==
+
+1. Download plugin
+2. Activate plugin
+
+3. a. for use as a widget, go to Appearance>widgets screen and add your OOO widget to the desired part of your theme
+   
+   b. for shortcode in posts and pages, place [out_of_office] where desired
+   
+   c. for hooks, place the following in your php code
+	<?php
+	if(function_exists('out_of_office'))
+	{
+		do_action('out_of_office');
+	}
+	?>
+
+FOr more information, please go to www.codemarker.co.uk/
 
 Widget
 shortcode
 Hooks
 
-Out of office can be used in a few ways.
 
-Widget
+== Frequently Asked Questions ==
 
-To use the widget, just go to the widget screen, change the settings there and then save.
-On the admin section of widgets, you will be given the option of where to put your widget (sidebar, footer, header etc depending on your theme).
-Once saved you will find OOO displayed.
+= A question that someone might have =
 
-Of course this doesnt provide that much flexibility especially if you want your OOO to be displayed on a specific screen or when there is a certain content type.
+An answer to that question.
 
-Hooks & shortcode
+= What about foo bar? =
 
-Shortcode is the straight forward code that allows any user to really add OOO to their content like so
-[out_of_office]
+Answer to foo bar dilemma.
 
-If you are a seasoned programmer then you can choose to use a hook to display the content.
-	if(function_exists('out_of_office'))
-	{
-		do_action('out_of_office');
-	}
-	
+== Screenshots ==
 
-For now Out-of-office is fairly basic and we hope to add more functionality to it.
-We have provided 'user_style.css' in the 'css' folder for users to style colors and properties that maybe displayed.
+1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
+the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets 
+directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png` 
+(or jpg, jpeg, gif).
+2. This is the second screen shot
 
-Each and every input has an on/off display switch so the user may or may not choose to display.
+== Changelog ==
+
+= 1.0 =
+* basic functinality but will be working on adding more functionaly.
